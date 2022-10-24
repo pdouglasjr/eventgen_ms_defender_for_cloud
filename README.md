@@ -1,4 +1,4 @@
-# Splunk event generator add-on for Microsoft Defender for CLoud
+## Splunk event generator add-on for Microsoft Defender for CLoud
 
 Default Metadata
 -----------------------
