@@ -30,7 +30,7 @@
       "No further action is needed."
     ],
     "vendorName": "Microsoft",
-    "status": "Active",
+    "status": @@status@@,
     "extendedLinks": [
       {
         "Category": "threat_reports",
@@ -39,25 +39,25 @@
         "Type": "webLink"
       }
     ],
-    "alertUri": "https://portal.azure.com/#blade/Microsoft_Azure_Security/AlertBlade/alertId/@@alertId@@/subscriptionId/@@subscriptionId@@/resourceGroup/myRg1/referencedFrom/alertDeepLink/location/westeurope",
-    "timeGeneratedUtc": "2020-02-23T13:47:58.0000000Z",
+    "alertUri": "https://portal.azure.com/#blade/Microsoft_Azure_Security/AlertBlade/alertId/@@alertId@@/subscriptionId/@@subscriptionId@@/resourceGroup/@@resourceGroup@@/referencedFrom/alertDeepLink/location/westeurope",
+    "timeGeneratedUtc": @@startTimeUtc@@,
     "productName": "Azure Security Center",
-    "processingEndTimeUtc": "2020-02-23T13:47:58.9205584Z",
+    "processingEndTimeUtc": @@startTimeUtc@@,
     "entities": [
       {
-        "address": "192.0.2.1",
+        "address": @@ipAddress@@,
         "location": {
-          "countryCode": "gb",
-          "state": "wokingham",
-          "city": "sonning",
-          "longitude": -0.909,
-          "latitude": 51.468,
-          "asn": 6584
+          "countryCode": @@countryCode@@,
+          "state": @@stateCountry@@,
+          "city": @@city@@,
+          "longitude": @@longitude@@,
+          "latitude": @@latitude@@,
+          "asn": @@asn@@
         },
         "type": "ip"
       }
     ],
-    "isIncident": true,
+    "isIncident": @@isIncident@@,
     "correlationKey": "kso0LFWxzCll5tqrk5hmrBJ+MY1BX806W6q6+0s9Lk=",
     "extendedProperties": {
       "Property1": "Property1 information"
