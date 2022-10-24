@@ -19,7 +19,7 @@
         "type": "AzureResource"
       },
       {
-        "workspaceId": @@wokrspaceId@@,
+        "workspaceId": @@workspaceId@@,
         "workspaceSubscriptionId": @@subscriptionId@@,
         "workspaceResourceGroup": @@resourceGroup@@,
         "agentId": @@agentId@@,
