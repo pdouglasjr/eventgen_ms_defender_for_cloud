@@ -11,8 +11,8 @@
     "description": @@alertDescription@@,
     "severity": @@alertSeverity@@,
     "intent": @@alertIntent@@,
-    "startTimeUtc": "2020-02-22T00:00:00.0000000Z",
-    "endTimeUtc": "2020-02-22T00:00:00.0000000Z",
+    "startTimeUtc": @@startTimeUtc@@,
+    "endTimeUtc": @@endTimeUtc@@,
     "resourceIdentifiers": [
       {
         "azureResourceId": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Compute/virtualMachines/vm1",
