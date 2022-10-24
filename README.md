@@ -1,6 +1,6 @@
 Splunk event generator add-on for Microsoft Defender for CLoud
 
-Default Host and Index:
+Default Metadata
 -----------------------
 host = aio1\
 index = mdc
