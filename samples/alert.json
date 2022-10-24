@@ -19,11 +19,11 @@
         "type": "AzureResource"
       },
       {
-        "workspaceId": "f419f624-acad-4d89-b86d-f62fa387f019",
+        "workspaceId": @@wokrspaceId@@,
         "workspaceSubscriptionId": @@subscriptionId@@,
-        "workspaceResourceGroup": "myRg1",
-        "agentId": "75724a01-f021-4aa8-9ec2-329792373e6e",
-        "type": "LogAnalytics"
+        "workspaceResourceGroup": @@resourceGroup@@,
+        "agentId": @@agentId@@,
+        "type": @@workspaceType@@
       }
     ],
     "remediationSteps": [
