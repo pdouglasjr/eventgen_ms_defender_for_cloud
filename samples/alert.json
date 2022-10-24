@@ -1,5 +1,5 @@
 {
-  "id": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Security/locations/westeurope/alerts/2518770965529163669_F144EE95-A3E5-42DA-A279-967D115809AA",
+  "id": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Security/locations/@@location@@/alerts/2518770965529163669_F144EE95-A3E5-42DA-A279-967D115809AA",
   "name": @@alertId@@,
   "type": "Microsoft.Security/Locations/alerts",
   "properties": {
@@ -39,7 +39,7 @@
         "Type": "webLink"
       }
     ],
-    "alertUri": "https://portal.azure.com/#blade/Microsoft_Azure_Security/AlertBlade/alertId/@@alertId@@/subscriptionId/@@subscriptionId@@/resourceGroup/@@resourceGroup@@/referencedFrom/alertDeepLink/location/westeurope",
+    "alertUri": "https://portal.azure.com/#blade/Microsoft_Azure_Security/AlertBlade/alertId/@@alertId@@/subscriptionId/@@subscriptionId@@/resourceGroup/@@resourceGroup@@/referencedFrom/alertDeepLink/location/@@location@@",
     "timeGeneratedUtc": @@startTimeUtc@@,
     "productName": "Azure Security Center",
     "processingEndTimeUtc": @@startTimeUtc@@,
