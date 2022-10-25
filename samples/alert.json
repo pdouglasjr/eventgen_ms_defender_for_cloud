@@ -1,36 +1,36 @@
 {
   "id": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Security/locations/@@location@@/alerts/2518770965529163669_F144EE95-A3E5-42DA-A279-967D115809AA",
-  "name": @@alertId@@,
+  "name": "@@alertId@@",
   "type": "Microsoft.Security/Locations/alerts",
   "properties": {
     "version": "2022-01-01",
-    "alertType": @@alertType@@,
-    "systemAlertId": @@alertId@@,
-    "productComponentName": @@productComponentName@@,
-    "alertDisplayName": @@alertTitle@@,
-    "description": @@alertDescription@@,
-    "severity": @@alertSeverity@@,
-    "intent": @@alertIntent@@,
-    "startTimeUtc": @@startTimeUtc@@,
-    "endTimeUtc": @@endTimeUtc@@,
+    "alertType": "@@alertType@@",
+    "systemAlertId": "@@alertId@@",
+    "productComponentName": "@@productComponentName@@",
+    "alertDisplayName": "@@alertTitle@@",
+    "description": "@@alertDescription@@",
+    "severity": "@@alertSeverity@@",
+    "intent": "@@alertIntent@@",
+    "startTimeUtc": "@@startTimeUtc@@",
+    "endTimeUtc": "@@endTimeUtc@@",
     "resourceIdentifiers": [
       {
         "azureResourceId": "/subscriptions/@@subscriptionId@@/resourceGroups/@@resourceGroup@@/providers/Microsoft.Compute/virtualMachines/@@virtualMachine@@",
         "type": "AzureResource"
       },
       {
-        "workspaceId": @@workspaceId@@,
-        "workspaceSubscriptionId": @@subscriptionId@@,
-        "workspaceResourceGroup": @@resourceGroup@@,
-        "agentId": @@agentId@@,
-        "type": @@workspaceType@@
+        "workspaceId": "@@workspaceId@@",
+        "workspaceSubscriptionId": "@@subscriptionId@@",
+        "workspaceResourceGroup": "@@resourceGroup@@",
+        "agentId": "@@agentId@@",
+        "type": "@@workspaceType@@"
       }
     ],
     "remediationSteps": [
       "No further action is needed."
     ],
     "vendorName": "Microsoft",
-    "status": @@status@@,
+    "status": "@@status@@",
     "extendedLinks": [
       {
         "Category": "threat_reports",
@@ -40,29 +40,29 @@
       }
     ],
     "alertUri": "https://portal.azure.com/#blade/Microsoft_Azure_Security/AlertBlade/alertId/@@alertId@@/subscriptionId/@@subscriptionId@@/resourceGroup/@@resourceGroup@@/referencedFrom/alertDeepLink/location/@@location@@",
-    "timeGeneratedUtc": @@startTimeUtc@@,
+    "timeGeneratedUtc": "@@startTimeUtc@@",
     "productName": "Azure Security Center",
-    "processingEndTimeUtc": @@startTimeUtc@@,
+    "processingEndTimeUtc": "@@startTimeUtc@@",
     "entities": [
       {
-        "address": @@ipAddress@@,
+        "address": "@@ipAddress@@",
         "location": {
-          "countryCode": @@countryCode@@,
-          "state": @@stateCountry@@,
-          "city": @@city@@,
-          "longitude": @@longitude@@,
-          "latitude": @@latitude@@,
-          "asn": @@asn@@
+          "countryCode": "@@countryCode@@",
+          "state": "@@stateCountry@@",
+          "city": "@@city@@",
+          "longitude": "@@longitude@@",
+          "latitude": "@@latitude@@",
+          "asn": "@@asn@@"
         },
         "type": "ip"
       }
     ],
-    "isIncident": @@isIncident@@,
-    "correlationKey": @@correlationKey@@,
+    "isIncident": "@@isIncident@@",
+    "correlationKey": "@@correlationKey@@",
     "extendedProperties": {
       "Property1": "Property1 information"
     },
-    "compromisedEntity": @@virtualMachine@@,
+    "compromisedEntity": "@@virtualMachine@@",
     "techniques": [],
     "subTechniques": [],
     "supportingEvidence": {
