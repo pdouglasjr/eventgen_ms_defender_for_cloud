@@ -15,7 +15,7 @@
     "endTimeUtc": @@endTimeUtc@@,
     "resourceIdentifiers": [
       {
-        "azureResourceId": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Compute/virtualMachines/vm1",
+        "azureResourceId": "/subscriptions/@@subscriptionId@@/resourceGroups/@@resourceGroup@@/providers/Microsoft.Compute/virtualMachines/@@virtualMachine@@",
         "type": "AzureResource"
       },
       {
@@ -58,54 +58,18 @@
       }
     ],
     "isIncident": @@isIncident@@,
-    "correlationKey": "kso0LFWxzCll5tqrk5hmrBJ+MY1BX806W6q6+0s9Lk=",
+    "correlationKey": @@correlationKey@@,
     "extendedProperties": {
       "Property1": "Property1 information"
     },
-    "compromisedEntity": "vm1",
-    "techniques": [
-      "T1059",
-      "T1053",
-      "T1072"
-    ],
-    "subTechniques": [
-      "T1059.001",
-      "T1059.006",
-      "T1053.002"
-    ],
+    "compromisedEntity": @@virtualMachine@@,
+    "techniques": [],
+    "subTechniques": [],
     "supportingEvidence": {
-      "type": "tabularEvidences",
-      "title": "Investigate activity test",
-      "columns": [
-        "Date",
-        "Activity",
-        "User",
-        "TestedText",
-        "TestedValue"
-      ],
-      "rows": [
-        [
-          "2022-01-17T07:03:52.034Z",
-          "Log on",
-          "testUser",
-          "false",
-          false
-        ],
-        [
-          "2022-01-17T07:03:52.034Z",
-          "Log on",
-          "testUser2",
-          "false",
-          false
-        ],
-        [
-          "2022-01-17T07:03:52.034Z",
-          "Log on",
-          "testUser3",
-          "true",
-          true
-        ]
-      ]
+      "type": null,
+      "title": null,
+      "columns": [],
+      "rows": []
     }
   }
-},
+}
