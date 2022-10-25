@@ -1,6 +1,6 @@
 {
   "id": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Security/locations/@@location@@/alerts/@@alertId@@",
-  "name": "@@alertName@@",
+  "name": "@@alertId@@",
   "type": "Microsoft.Security/Locations/alerts",
   "properties": {
     "version": "2022-01-01",
