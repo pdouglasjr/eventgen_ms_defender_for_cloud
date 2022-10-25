@@ -1,5 +1,5 @@
 {
-  "id": "/subscriptions/@@subscriptionId@@/resourceGroups/myRg1/providers/Microsoft.Security/locations/@@location@@/alerts/@@alertId@@",
+  "id": "/subscriptions/@@subscriptionId@@/resourceGroups/@@resourceGroup@@/providers/Microsoft.Security/locations/@@location@@/alerts/@@alertId@@",
   "name": "@@alertId@@",
   "type": "Microsoft.Security/Locations/alerts",
   "properties": {
